@@ -1,0 +1,6 @@
+
+[linux-server]
+$hostname
+$IPADDR
+
+

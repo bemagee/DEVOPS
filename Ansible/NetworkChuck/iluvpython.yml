@@ -1,0 +1,8 @@
+---
+- name: iluvpython
+  hosts: linux-servers
+  tasks:
+    -name: ensure python3 is installed on this host
+      yum:
+        name: python3
+        state: latest
